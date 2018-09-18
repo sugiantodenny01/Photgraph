@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/credits"
+    tools:context="com.example.denny_pc.photgraph.CreditsActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/lecturer"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt_lec"
+        android:layout_marginTop="30dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_lec"
+        android:layout_centerHorizontal="true"
+        android:text="@string/lecturerName"
+        android:textColor="@color/white"
+        android:id="@+id/txt_lecName"
+
+        />
+
+    <TextView
+        android:layout_below="@id/txt_lecName"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tentang"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/txt_1"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txt_1"
+        android:text="@string/pembuat1"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:id="@+id/txt_2"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_2"
+        android:text="@string/pembuat2"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:id="@+id/txt_3"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_3"
+        android:text="@string/pembuat3"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:id="@+id/txt_4"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_4"
+        android:text="@string/pembuat4"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:id="@+id/txt_"
+
+        />
+
+</RelativeLayout>

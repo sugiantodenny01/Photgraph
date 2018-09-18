@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLavender"
+    tools:context="com.example.denny_pc.photgraph.MainActivity">
+
+    <ImageView
+        android:id="@+id/cb1"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:src="@drawable/logo2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cb1"
+        android:layout_marginTop="20dp"
+        android:text="User"
+        android:layout_toLeftOf="@+id/userTypeSwitch"
+        android:layout_marginRight="7dp"
+        android:id="@+id/txt_rider"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cb1"
+        android:layout_marginTop="20dp"
+        android:text="Photo"
+        android:layout_toRightOf="@+id/userTypeSwitch"
+        android:layout_marginRight="7dp"
+        android:id="@+id/txt_driver"
+
+        />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cb1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/userTypeSwitch"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userTypeSwitch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_1"
+        android:onClick="getStarted"
+        android:text="Get Started"
+
+
+        />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_1"
+        android:layout_alignStart="@+id/btn_1"
+        android:layout_below="@+id/btn_1"
+        android:onClick="About"
+        android:text="About" />
+
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_2"
+        android:layout_alignStart="@+id/btn_2"
+        android:layout_below="@+id/btn_2"
+        android:onClick="Credits"
+        android:text="Credits" />
+
+</RelativeLayout>

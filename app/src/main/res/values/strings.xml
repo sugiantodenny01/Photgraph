@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NGFOTO</string>
+    <string name="title_activity_rider">Map</string>
+    <string name="title_activity_driver_location">Map</string>
+    <string name="lecturer">Lecturer: </string>
+    <string name="lecturerName">Windra Swastika,Phd</string>
+    <string name="tentang">Team Creative</string>
+    <string name="pembuat1">Denny Eko S / 311210011</string>
+    <string name="pembuat2">Adrianus Handhata/ 311210001</string>
+    <string name="pembuat3">Mohamad Risaldy / 311110029</string>
+    <string name="pembuat4">Yusuf / 311110051</string>
+
+
+    <string name="aplikasi">Aplikasi ini merupakan aplikasi yang menghubungkan antara user yang membutuhkan seorang photgrapher dan seorang phographer yang mencari user yang ingin menggunakan jasa photographer</string>
+</resources>
