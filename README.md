@@ -1,1 +1,1 @@
-Android apps to connects the photographer to the user who needs a photographer using parse sever as API
+Android app to connect photographers with users who need photographers using parse server as API
