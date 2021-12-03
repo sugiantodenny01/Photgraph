@@ -1,7 +1,7 @@
 <h3><b>Nguber</b></h3> 
 
 
-Android app to connect photographers with users who need photographers and uses parse server as API
+Android app to connect photographers with users who need photographers
 
 
 
