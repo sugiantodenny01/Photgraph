@@ -1,8 +1,7 @@
 <h3><b>Nguber</b></h3> 
 
 
-Android app to connect photographers with users who need photographers
-
+This Android app is designed to connect photographers with users who need photography services. Users can easily find and book professional photographers based on their needs and preferences.
 
 
 
